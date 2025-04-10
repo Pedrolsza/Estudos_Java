@@ -14,15 +14,16 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner P = new Scanner(System.in);
-        System.out.print("Principal: ");
+        Scanner P = new Scanner(System.in);             // It's better to declare a single Scanner at the beginning and reuse it
+        System.out.print("Principal: ");                // Ex. when reuse:"double principal = P.nextDouble();" by "int principal = scanner.nextInt();;
         double principal = P.nextDouble();
 
-        Scanner R = new Scanner(System.in);
+        Scanner R = new Scanner(System.in);             // Avoid creating multiple Scanner objects; reuse a single instance
+
         System.out.print("Annual Interest Rate: ");
         double annual = R.nextDouble();
 
-        Scanner y = new Scanner(System.in);
+        Scanner y = new Scanner(System.in);             // Avoid creating multiple Scanner objects; reuse a single instance
         System.out.print("Period (years): ");
         int years = y.nextInt();
 
