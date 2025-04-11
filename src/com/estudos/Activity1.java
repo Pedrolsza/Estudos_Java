@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Activity1 {
     public static void activity1(String[] args) {
+        //Activity 1:
 
         Scanner Scanner = new Scanner(System.in);
 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Activity {
     public static void activity(String[] args) {
-        //Activity 1:
+        //Activity :
 
         Scanner P = new Scanner(System.in);             // It's better to declare a single Scanner at the beginning and reuse it
         System.out.print("Principal: ");                // Ex. when reuse:"double principal = P.nextDouble();" by "int principal = scanner.nextInt();;
